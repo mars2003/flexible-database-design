@@ -1,0 +1,29 @@
+# 数据库与运行时数据（不纳入版本管理）
+data/
+*.db
+*.db-wal
+*.db-shm
+*.db.bak.*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+
+# 系统与编辑器
+.DS_Store
+*.log
+Thumbs.db
+.idea/
+.vscode/
+
+# 测试与临时
+*.zip
+.pytest_cache/
+.coverage
+htmlcov/
